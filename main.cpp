@@ -31,5 +31,17 @@ string Student ::GetFullName() {
     return full_name;
 }
 int main () {
+     Student ob1;
+     int id ;string FirstName ,LastName;
+     cout<<"enter student of id "<<endl;
+     cin>>id;
+     ob1.SetId(id);
+     cout<<"enter first name of  student "<<endl;
+     cin>>FirstName;
+     ob1.SetFirstName(FirstName);
+     cout<<"enter last name of student "<<endl;
+     cin>>LastName;
+     ob1.SetLastName(LastName);
+     cout<<"full name of student is "<<ob1.GetFullName()<<Endl;
 
 }
