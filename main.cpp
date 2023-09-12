@@ -43,6 +43,7 @@ int main () {
      cin>>LastName;
      ob1.SetLastName(LastName);
      cout<<"full name of student is "<<ob1.GetFullName()<<Endl;
+     cout<<"/**********************************/"<<endl;
 
 }
 
